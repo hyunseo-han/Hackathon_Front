@@ -352,12 +352,12 @@ a:hover {
 }
 
 .answerDiv {
-  box-sizing: border-box;
   position: absolute;
+  box-sizing: border-box;
   width: 1430px;
   height: 805px;
   left: 250px;
-  top: 895px;
+  top: 75px;
   background: #ffffff;
   border-width: 2px 0px;
   border-style: solid;
@@ -368,8 +368,8 @@ a:hover {
   position: absolute;
   width: 1317px;
   height: 0px;
-  left: 306px;
-  top: 1086.04px;
+  left: 56px;
+  top: 189px;
   border: 1px solid #d9d9d9;
   transform: rotate(-0.09deg);
 }
@@ -378,6 +378,107 @@ a:hover {
   position: absolute;
   width: 85px;
   height: 85px;
-  left: 299px;
-  top: 957px;
+  left: 49px;
+  top: 62px;
+}
+
+.name {
+  position: absolute;
+  width: 250px;
+  height: 49px;
+  left: 150px;
+  top: 68px;
+  font-family: "Pretendard Variable";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 135%;
+  display: flex;
+  align-items: center;
+  color: #246a96;
+}
+
+.date {
+  position: absolute;
+  width: 75px;
+  height: 26px;
+  left: 154px;
+  top: 122px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+  color: #969696;
+}
+
+.text_box {
+  position: absolute;
+  width: 1195px;
+  height: 378px;
+  left: 149px;
+  top: 240px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 130%;
+  color: #000000;
+}
+
+.line2 {
+  position: absolute;
+  width: 1317px;
+  height: 0px;
+  left: 56px;
+  top: 685px;
+  border: 1px solid #d9d9d9;
+  transform: rotate(-0.09deg);
+}
+
+.commentIMG {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 143px;
+  top: 716px;
+}
+
+.comment {
+  position: absolute;
+  width: 42px;
+  height: 31px;
+  left: 185px;
+  top: 715px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #969696;
+}
+
+.setting {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 1600px;
+  top: 10px;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1; /*다른 요소들보다 앞에 배치*/
+  left: 1600px;
+  top: 10px;
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
