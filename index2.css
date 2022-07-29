@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
 * {
   font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
     "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
@@ -6,9 +7,10 @@
 }
 
 body {
+  background-color: #f5f5f5;
   width: 1920px;
-  position: relative;
 }
+/*margin padding 없앰*/
 
 .header {
   top: 0px;
@@ -433,6 +435,38 @@ a:hover {
   top: 1561px;
 
   background: #f3f8fb;
+}
+
+.sub_news,
+.sub_news th,
+.sub_news td {
+  border: 0;
+}
+.sub_news a {
+  color: black;
+  text-decoration: none;
+}
+.sub_news {
+  width: 100%;
+  /* border-bottom: 1px solid #89BAD9; */
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+}
+.sub_news th {
+  padding: 15px;
+  border-bottom: solid 2px #89bad9;
+  color: #969696;
+}
+
+.sub_news td {
+  padding: 15px;
+  border-bottom: solid 1px #89bad9;
+}
+
+.t-name,
+.t-answer {
+  color: #969696;
 }
 
 .text-sub {
