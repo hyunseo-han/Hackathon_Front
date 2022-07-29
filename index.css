@@ -224,7 +224,7 @@ p {
 
 .wait_cloud {
   width: 1920px;
-  top: 1721px;
+  top: 87px;
   display: flex;
   flex-basis: 100%;
   align-items: center;
@@ -316,6 +316,70 @@ p {
   top: 2374px;
   background: rgba(137, 186, 217, 0.1);
   border-radius: 20px;
+}
+
+.position {
+  position: absolute;
+  top: 46px;
+  left: 35px;
+  right: 300px;
+  bottom: 415px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #89bad9;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #246a96;
+}
+
+.title {
+  position: absolute;
+  top: 148px;
+  left: 36px;
+  right: 153px;
+  bottom: 283px;
+  align-items: center;
+  color: #246a96;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+}
+
+.text {
+  position: absolute;
+  width: 342px;
+  height: 87px;
+  left: 36px;
+  top: 288px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.nname {
+  position: absolute;
+  width: 187px;
+  height: 24px;
+  left: 36px;
+  top: 442px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #969696;
 }
 
 .icon1 {
@@ -518,7 +582,7 @@ position 속성이 아닌 가상선택자와 flex를 이용하는 방법*/
   width: 494px;
   height: 43px;
   left: 332px;
-  top: 2974px;
+  top: 3020px;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
