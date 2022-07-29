@@ -1,5 +1,4 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
-
 * {
   font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
     "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
@@ -7,10 +6,9 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  position: relative;
   width: 1920px;
 }
-/*margin padding 없앰*/
 
 .header {
   top: 0px;
@@ -146,180 +144,107 @@ a:hover {
   right: 0px;
 }
 
-.main {
+.mypage {
   position: absolute;
   width: 1920px;
-  height: 1660px;
-  left: 0px;
-  top: 139px;
+  height: 877px;
+
   background: #f3f8fb;
 }
 
-.dhth {
+.myname {
   position: absolute;
-  width: 480px;
-  height: 78px;
-  left: 295px;
-  top: 53px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 43px;
-  display: flex;
-  align-items: center;
-  color: #000000;
-}
+  width: 1166px;
+  height: 194px;
+  left: 377px;
+  top: 212px;
 
-.writediv {
-  box-sizing: border-box;
-  position: absolute;
-  width: 1330px;
-  height: 1104px;
-  left: 295px;
-  top: 459px;
   background: #ffffff;
-  border: 1px solid #89bad9;
+  border-radius: 20px;
 }
 
-.real {
-  box-sizing: border-box;
+.my-ques h2 {
   position: absolute;
-  width: 1330px;
-  height: 145px;
-  left: 295px;
-  top: 171px;
-  background: #ffffff;
-  border: 1px solid #89bad9;
-}
+  width: 327px;
+  height: 38px;
+  left: 796px;
+  margin-top: 424px;
 
-.ii {
-  box-sizing: border-box;
-  position: absolute;
-  width: 1330px;
-  height: 53px;
-  left: 295px;
-  top: 316px;
-  background: #ffffff;
-  border-width: 0px 1px 1px 1px;
-  border-style: solid;
-  border-color: #89bad9;
-}
-
-.ii {
-  box-sizing: border-box;
-  position: absolute;
-  width: 1330px;
-  height: 53px;
-  left: 295px;
-  top: 316px;
-  background: #ffffff;
-  border-width: 0px 1px 1px 1px;
-  border-style: solid;
-  border-color: #89bad9;
-}
-
-button {
-  position: absolute;
-  width: 111px;
-  height: 54px;
-  right: 0px;
-  top: 0px;
-  background: #89bad9;
-}
-
-.hi {
-  background-attachment: #89bad9;
-}
-
-.kk {
-  box-sizing: border-box;
-  width: 1330px;
-  height: 145px;
-  left: 295px;
-  top: 171px;
-  background: #ffffff;
-  border: 1px solid #89bad9;
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
-  line-height: 34px;
+  font-size: 32px;
+  line-height: 38px;
   display: flex;
   align-items: center;
   text-align: center;
+
   color: #000000;
 }
 
-.qq {
+.my-ques h1 {
   position: absolute;
-  width: 964px;
-  height: 29px;
-  left: 48px;
-  top: 109px;
+  width: 49px;
+  height: 77px;
+  left: 430px;
+  margin-top: 481px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #246a96;
+}
+
+.my-ques h3 {
+  position: absolute;
+  width: 525px;
+  height: 43px;
+  left: 497px;
+  margin-top: 498px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 135%;
+  /* or 43px */
+
+  display: flex;
+  align-items: center;
+
+  color: #246a96;
+}
+
+.my-ques p {
+  position: absolute;
+  width: 871px;
+  height: 128px;
+  left: 430px;
+  margin-top: 577px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 29px;
+  line-height: 135%;
+  /* or 32px */
+
   display: flex;
   align-items: center;
+
   color: #000000;
 }
 
-.ww {
+footer {
   position: absolute;
-  width: 964px;
-  height: 29px;
-  left: 48px;
-  top: 328px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  color: #000000;
-}
+  width: 1920px;
+  height: 120px;
+  left: 0px;
+  top: 1080px;
 
-.ee {
-  position: absolute;
-  width: 964px;
-  height: 29px;
-  left: 48px;
-  top: 547px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  color: #000000;
-}
-
-.rr {
-  position: absolute;
-  width: 964px;
-  height: 29px;
-  left: 48px;
-  top: 772px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  color: #000000;
-}
-
-.tt {
-  position: absolute;
-  width: 964px;
-  height: 29px;
-  left: 48px;
-  top: 995px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  color: #000000;
+  background: #246a96;
 }
