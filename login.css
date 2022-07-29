@@ -1,0 +1,93 @@
+body {
+  width: 1920px;
+  position: relative;
+}
+
+@font-face {
+  font-family: "Binggrae";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+* {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+}
+
+.login-text h2 {
+  position: absolute;
+  width: 333px;
+  height: 86px;
+  left: 793px;
+  top: 352px;
+
+  font-family: "Binggrae";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  letter-spacing: -0.125em;
+
+  color: #000000;
+}
+
+input:focus {
+  outline: none;
+}
+
+.login-main p {
+  position: absolute;
+  height: 29px;
+  left: 700px;
+  margin-top: 468px;
+
+  font-family: "Pretendard Variable";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.login-main h5 {
+  position: absolute;
+  height: 29px;
+  left: 700px;
+  margin-top: 602px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.signin {
+  position: absolute;
+  height: 24px;
+  left: 1115px;
+  margin-top: 730px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #89bad9;
+}
