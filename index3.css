@@ -1,0 +1,383 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+* {
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto,
+    "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR",
+    "Malgun Gothic", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  width: 1920px;
+}
+/*margin padding 없앰*/
+
+.header {
+  top: 0px;
+  height: 135px;
+  width: 1920px;
+}
+
+.menu-bar {
+  position: absolute;
+  width: 1625px;
+  height: 76px;
+  left: 36px;
+  top: 33px;
+}
+
+.logo {
+  position: absolute;
+  width: 166.69px;
+  height: 72px;
+  right: 1458.31px;
+  bottom: 4px;
+  border-radius: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+/*색깔 안바뀜*/
+
+a:hover {
+  color: #246a96;
+}
+
+.home {
+  position: absolute;
+  width: 21.48px;
+  height: 34px;
+  left: 286.34px;
+  top: 19px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.dhrn {
+  position: absolute;
+  width: 130.9px;
+  height: 34px;
+  left: 402.93px;
+  top: 19px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.dhtns {
+  position: absolute;
+  width: 130.9px;
+  height: 34px;
+  left: 597.23px;
+  top: 19px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+/*input창 테두리*/
+.search {
+  position: absolute;
+  border: 0;
+  width: 500px;
+  height: 74px;
+  left: 895.85px;
+  right: 170.78px;
+  top: 2px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.search-icon {
+  position: absolute;
+  top: 18px;
+  left: 1420px;
+  right: 16px;
+  bottom: 16px;
+}
+
+.search-input {
+  position: absolute;
+  width: 100%;
+  background-color: #f8f8f8;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+.ring {
+  position: absolute;
+  left: 1497.17px;
+  top: 19px;
+}
+
+.my {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+}
+
+.questionBox {
+  width: 1920px;
+  height: 681px;
+  background-color: #f3f8fb;
+}
+
+.question {
+  position: absolute;
+  width: 700px;
+  height: 49px;
+  left: 400px;
+  top: 197px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 135%;
+  display: flex;
+  align-items: center;
+  color: #246a96;
+}
+
+.content {
+  position: absolute;
+  width: 1183px;
+  height: 172px;
+  left: 404px;
+  top: 284px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.imogiBox {
+  position: absolute;
+  width: 604px;
+  height: 150px;
+  left: 689px;
+  top: 568px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.imo {
+  margin-left: 65px;
+  margin-top: 29px;
+}
+
+.emotion {
+  position: absolute;
+  width: 70px;
+  height: 27px;
+  left: 740px;
+  top: 643px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+  display: flex;
+  align-items: center;
+  color: #246a96;
+}
+
+.set {
+  position: absolute;
+  width: 604px;
+  height: 27px;
+  top: 75px;
+  left: 0px;
+  right: 0px;
+  bottom: 48px;
+}
+
+.emotion1 {
+  position: absolute;
+  top: 0px;
+  left: 55px;
+  color: #246a96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.emotion2 {
+  position: absolute;
+  top: 0px;
+  left: 153px;
+  color: #246a96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.emotion3 {
+  position: absolute;
+  top: 0px;
+  left: 275px;
+  color: #246a96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.emotion4 {
+  position: absolute;
+  top: 0px;
+  left: 375px;
+  color: #246a96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.emotion5 {
+  position: absolute;
+  top: 0px;
+  left: 493px;
+  color: #246a96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.set2 {
+  position: absolute;
+  width: 604px;
+  height: 27px;
+  top: 102px;
+  left: 0px;
+  right: 0px;
+  bottom: 48px;
+}
+
+.emo1 {
+  position: absolute;
+  top: 0px;
+  left: 80px;
+  color: #246a96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.emo2 {
+  position: absolute;
+  top: 0px;
+  left: 190px;
+  color: #246a96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.emo3 {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  color: #246a96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.emo4 {
+  position: absolute;
+  top: 0px;
+  left: 410px;
+  color: #246a96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.emo5 {
+  position: absolute;
+  top: 0px;
+  left: 520px;
+  color: #246a96;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+}
+
+.answer {
+  position: absolute;
+  width: 1920px;
+  height: 983px;
+  left: 0px;
+  top: 820px;
+  background: #f3f3f3;
+}
+
+.answerDiv {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1430px;
+  height: 805px;
+  left: 250px;
+  top: 895px;
+  background: #ffffff;
+  border-width: 2px 0px;
+  border-style: solid;
+  border-color: #bbdaee;
+}
+
+.line {
+  position: absolute;
+  width: 1317px;
+  height: 0px;
+  left: 306px;
+  top: 1086.04px;
+  border: 1px solid #d9d9d9;
+  transform: rotate(-0.09deg);
+}
+
+.photo {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 299px;
+  top: 957px;
+}
