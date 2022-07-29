@@ -30,13 +30,13 @@ body {
   height: 72px;
   right: 1458.31px;
   bottom: 4px;
-  background: #000000;
   border-radius: 20px;
   color: #ffffff;
   text-align: center;
 }
 
-a:link {
+a {
+  text-decoration: none;
   color: #000000;
 }
 /*색깔 안바뀜*/
@@ -93,21 +93,31 @@ a:hover {
   color: #000000;
 }
 
+/*input창 테두리*/
 .search {
   position: absolute;
-  width: 558.37px;
+  border: 0;
+  width: 500px;
   height: 74px;
   left: 895.85px;
   right: 170.78px;
   top: 2px;
   background: #f8f8f8;
   border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
 }
 
 .search-icon {
   position: absolute;
   top: 18px;
-  left: 503.15px;
+  left: 1420px;
   right: 16px;
   bottom: 16px;
 }

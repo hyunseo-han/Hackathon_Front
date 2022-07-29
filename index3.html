@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question_Detail</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index3.css" />
+  </head>
+  <body>
+    <section class="header">
+      <nav class="menu-bar">
+        <div class="logo"><img src="/img/Logo.png" /></div>
+        <div class="home">
+          <a href="index.html">홈</a>
+        </div>
+        <div class="dhrn">
+          <a href="/index2.html">오늘의 구름</a>
+        </div>
+        <div class="dhtns">
+          <a href="#">오늘의 순간</a>
+        </div>
+
+        <input type="text" class="search" />
+        <div class="search-icon">
+          <img src="/img/search.png" />
+        </div>
+
+        <div class="ring"><img src="/img/ring.png" /></div>
+        <div class="my"><img src="/img/Ellipse1.png" /></div>
+      </nav>
+    </section>
+    <section class="main">
+      <div class="questionBox">
+        <div class="question">Q. 어떻게 하면 규칙적으로 생활할 수 있나요?</div>
+        <div class="content">
+          코로나 때문에 생활패턴 꼬여서 매일 오후 1시 넘어서 일어나게 됩니다.<br />
+          생활 패턴 되돌리는데 성공한 분들 어떻게 하셨나요??<br />
+          이제 곧 대면 수업도 가야하는데 아침에 일찍 못 일어나고 지각이나
+          결석할까봐 무서워요..<br />
+          밤에는 새벽 2시 넘어서 자고 오후 1시까지 자고 생활 패턴이 완전히
+          꼬여버린 상태입니다 ㅠㅠ
+        </div>
+        <div class="imogiBox">
+          <img
+            src="/img/imo0.png"
+            class="imo"
+            onclick='count("plus0")'
+            value="+"
+          />
+          <img
+            src="/img/imo1.png"
+            class="imo"
+            onclick='count("plus1")'
+            value="+"
+          />
+          <img
+            src="/img/imo2.png"
+            class="imo"
+            onclick='count("plus2")'
+            value="+"
+          />
+          <img
+            src="/img/imo3.png"
+            class="imo"
+            onclick='count("plus3")'
+            value="+"
+          />
+          <img
+            src="/img/imo4.png"
+            class="imo"
+            onclick='count("plus4")'
+            value="+"
+          />
+
+          <div class="set">
+            <div class="emotion1">재밌어요</div>
+            <div class="emotion2">도움이 돼요</div>
+            <div class="emotion3">공감돼요</div>
+            <div class="emotion4">흥미로워요</div>
+            <div class="emotion5">응원해요</div>
+          </div>
+
+          <div class="set2">
+            <div class="emo1" id="result0">0</div>
+            <div class="emo2" id="result1">0</div>
+            <div class="emo3" id="result2">0</div>
+            <div class="emo4" id="result3">0</div>
+            <div class="emo5" id="result4">0</div>
+          </div>
+        </div>
+      </div>
+      <div class="answer">
+        <div class="photo"></div>
+        <div class="line"></div>
+        <div class="answerDiv"></div>
+      </div>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="index3.js"></script>
+  </body>
+</html>
